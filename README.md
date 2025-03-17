@@ -1,5 +1,12 @@
 # Project Setup and Usage
 
+### Test Coverage Notes
+Due to limited time, not all test cases were written. The following aspects have been considered:
+- Handling race conditions (on thread level)
+- Validation of payload
+- Unit tests for calculating points to gain and consuming the points
+- Some edge cases (not all edge cases are tested)
+
 ## Prerequisites
 Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (latest LTS version recommended)
@@ -48,4 +55,10 @@ npm run test:integration
 Start the development server with:
 ```sh
 npm run dev
+```
+
+## API Documentation
+Documentation is available at:
+```
+http://localhost:3000/documentation
 ```
