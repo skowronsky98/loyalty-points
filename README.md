@@ -1,7 +1,7 @@
 # Project Setup and Usage
 
 ### Test Coverage Notes
-Due to limited time, not all test cases were written. The following aspects have been considered:
+Due to limited time, the following aspects have not been fully tested:
 - Handling race conditions (on thread level)
 - Validation of payload
 - Unit tests for calculating points to gain and consuming the points
